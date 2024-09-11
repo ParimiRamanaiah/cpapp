@@ -46,7 +46,7 @@ modules:
       instance:
         destinations:
         - Authentication: OAuth2UserTokenExchange
-          Name: cpapp-app-srv
+          Name: cpapp-srv
           TokenServiceInstanceName: cpapp-uaa
           TokenServiceKeyName: cpapp-uaa-key
           URL: ~{srv-api/srv-url}
